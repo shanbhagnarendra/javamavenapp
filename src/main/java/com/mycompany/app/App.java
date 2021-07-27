@@ -7,6 +7,7 @@ public class App
 {
 
     private final String message = "Hello World!";
+    private final String appName="My App";
 
     public App() {}
 
@@ -17,5 +18,6 @@ public class App
     private final String getMessage() {
         return message;
     }
+    private final String  getAppName(){ return appName; }
 
 }
